@@ -1,0 +1,13 @@
+{
+  "name": "reactv2-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix secondproject run dev -- --host",
+    "build": "npm --prefix secondproject run build",
+    "preview": "npm --prefix secondproject run preview -- --host",
+    "start": "npm --prefix secondproject run dev -- --host"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.18.4"
+  }
+}
